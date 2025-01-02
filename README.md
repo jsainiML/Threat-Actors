@@ -1,42 +1,96 @@
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+# Threat Intel
 
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+Creating this repository as lookup guide for detection engineers, where you will find list adversarial TTPs & signature patterns. 
 
 </header>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+---
 
-## Step 1: Enable GitHub Pages
+### **1. Ransomware Groups**
+These are groups primarily focused on using ransomware for extortion purposes.
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+| **Group**                 | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **Dark Angels**           | Highly targeted attacks, responsible for the largest known ransom payment of $75M. |
+| **LockBit**               | Major ransomware group with a large affiliate network, high-volume attacks. |
+| **BlackCat (ALPHV)**      | Known for cross-platform compatibility, affiliate-based operations.      |
+| **Akira**                 | Emerged in 2023, likely an offshoot of Conti, uses various access methods. |
+| **Black Basta**           | Successor to Conti, uses Qakbot and Pikabot as initial access brokers.   |
+| **8Base**                 | Active ransomware extortion group.                                       |
+| **Play**                  | Known for data leaks in ransomware operations.                          |
+| **Clop**                  | Known for data leaks in ransomware operations.                          |
+| **BianLian**              | Known for data leaks in ransomware operations.                          |
+| **Medusa**                | Known for data leaks in ransomware operations.                          |
+| **NoEscape**              | Known for data leaks in ransomware operations.                          |
+| **Hunters**               | Known for data leaks in ransomware operations.                          |
+| **Stormous**              | Known for data leaks in ransomware operations.                          |
+| **Rhysida**               | Known for data leaks in ransomware operations.                          |
+| **Qilin/AgendaCrypt**     | Known for data leaks in ransomware operations.                          |
+| **Lorenz**                | Involved in leaking stolen data, including from pharmaceutical distributors. |
+| **Stop (a.k.a. DJVU)**    | Ransomware gang using SmokeLoader.                                       |
+| **Hive**                  | Rebranded as Hunters International after infrastructure shutdown.        |
+| **Hunters International** | Successor to Hive ransomware group.                                      |
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+---
 
-### :keyboard: Activity: Enable GitHub Pages
+### **2. Initial Access Brokers or Affiliate Networks**
+These are groups or entities that specialize in providing access or tools for ransomware deployment.
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+| **Group/Entity**          | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **Qakbot**                | Initially for fraud, now an initial access broker for ransomware; disrupted in "Operation Duck Hunt." |
+| **SmokeLoader**           | Malware used as an initial access broker for ransomware.                 |
+| **Pikabot**               | Initial access broker used by Black Basta after Qakbot disruption.       |
+| **Bumblebee**             | Tied to Conti, used for ransomware access.                               |
+| **IcedID**                | Banking trojan turned initial access broker.                             |
+| **Latrodectus**           | New malware loader created by IcedID developers.                         |
+| **Raspberry Robin**       | Used SmokeLoader for ransomware deployment.                              |
+| **RansomHub**             | Ransomware-as-a-service (RaaS) network where BlackCat affiliates migrated. |
+
+---
+
+### **3. Ransomware Variants**
+Specific ransomware strains or payloads used in attacks.
+
+| **Ransomware Variant**    | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **RagnarLocker**          | Used by Dark Angels.                                                     |
+| **Babuk**                 | Used by Dark Angels before switching to RagnarLocker.                    |
+
+---
+
+### **4. Affiliate-Based Operations**
+These are operations relying on affiliate networks to scale their attacks.
+
+| **Group/Entity**          | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **BlackCat (ALPHV)**      | Operated through an affiliate network; cross-platform compatibility.     |
+| **LockBit**               | Large affiliate network for high-volume attacks.                        |
+| **RansomHub**             | Network supporting affiliates of BlackCat.                              |
+
+---
+
+### **5. Social Engineering and Sophisticated Threat Actors**
+These groups use advanced techniques, including social engineering, but are not necessarily ransomware-exclusive.
+
+| **Group/Entity**          | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **Scattered Spider**      | Effective social engineering group, affiliate of BlackCat.               |
+
+---
+
+### **6. Law Enforcement Operations**
+Efforts to disrupt ransomware and initial access broker networks.
+
+| **Operation**             | **Notes**                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| **Operation Duck Hunt**   | Disrupted Qakbot operations.                                             |
+| **Operation Endgame**     | Targeted initial access brokers like SmokeLoader, Pikabot, Bumblebee, and IcedID. |
+
+---
+
 
 <footer>
 
@@ -47,7 +101,7 @@ The first step is to enable GitHub Pages on this [repository](https://docs.githu
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Created by Jaspreet S.
 
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
