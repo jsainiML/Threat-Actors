@@ -58,12 +58,6 @@ Common Tools Used:
   - 89.38.225[.]166
 
 ---
-### Mitigation and Response
-- **Defensive Recommendations:** [Steps to defend against this actor]
-- **Patches and Updates:** [Related CVEs or patches to mitigate risks]
-- **Detection Techniques:** [How to detect their activities]
-
----
 ### References
 - https://www.watchguard.com/wgrd-ransomware/dark-angels-team
 - https://www.zscaler.com/blogs/security-research/shining-light-dark-angels-ransomware-group
