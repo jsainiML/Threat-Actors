@@ -8,7 +8,7 @@ The Dark Angels ransomware group is a highly targeted and financially motivated 
 - **First Identified:** 2022
 - **Region of Operation:** Global
 - **Primary Targets:** Large corporations, critical infrastructure, and high-value enterprises
-- **Motivation:** inancial gain through extortion
+- **Motivation:** Financial gain through extortion
 
 ---
 ### Known Campaigns
