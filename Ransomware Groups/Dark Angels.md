@@ -1,11 +1,11 @@
 ## Threat Actor: Dark Angels 👼
-The Dark Angels ransomware group is a highly targeted and financially motivated threat actor known for executing large-scale attacks against major corporations and high-value enterprises worldwide. They gained infamy in 2024 for demanding and securing the largest known ransom payment of $75 million from a major enterprise. Dark Angels primarily leverage Ransomware-as-a-Service (RaaS) models, collaborating with initial access brokers like Qakbot and SmokeLoader to gain entry into victim networks.
+The Dark Angels ransomware group is a highly targeted and financially motivated threat actor known for executing large-scale attacks against major corporations and high-value enterprises worldwide. They gained infamy in 2024 for demanding and securing the largest known ransom payment of $75 million from a major enterprise. Dark Angels primarily leverage Ransomware-as-a-Service (RaaS) models.
 
 ---
 ### Overview
 - **Aliases:** White Rabbit and MARIO ESXi
 - **Type:** Ransomware Group
-- **First Identified:** 2022 (Also claimed )
+- **First Identified:** 2022 (Also claimed 2021)
 - **Region of Operation:** Global
 - **Primary Targets:** Large corporations, critical infrastructure, and high-value enterprises
 - **Motivation:** Financial gain through extortion
