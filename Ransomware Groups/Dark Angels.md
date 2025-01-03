@@ -56,12 +56,18 @@ Common Tools Used:
   - http[:]//wemo2ysyeq6km2nqhcrz63dkdhez3j25yw2nvn7xba2z4h7v7gyrfgid[.]onion
 - **IP Addresses:**
   - 89.38.225[.]166
-
+- **Files:**
+  - file name.file extension.crypt
+  - file name.file extension.crypted
+  - How_To_Restore_Your_Files.txt
+  - Extension ".babyk" OR ".r4gN4r_***"
 ---
 ### References
 - https://www.watchguard.com/wgrd-ransomware/dark-angels-team
 - https://www.zscaler.com/blogs/security-research/shining-light-dark-angels-ransomware-group
 - https://krebsonsecurity.com/2024/08/low-drama-dark-angels-reap-record-ransoms/
+- https://any.run/report/dd79b2abc21e766fe3076038482ded43e5069a1af9e0ad29e06dce387bfae900/63be87a3-283b-44fd-add2-c5a824a48e7e
+- https://www.vmray.com/analyses/8140004ff3cf/report/function_strings_process_1.txt
 
 
 
