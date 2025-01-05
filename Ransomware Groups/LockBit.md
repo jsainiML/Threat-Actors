@@ -44,8 +44,11 @@ Additionally, affiliates and developers associated with LockBit have faced legal
 - **Common Tools Used:**
   - Mimikatz
   - Cobalt Strike
+  - Socgholish
   - PsExec
   - StealBit (data exfiltration tool)
+  - Megasync
+  - Meterpreter
 - **Infection Vector:**
   - Phishing emails with malicious attachments or links
   - Exploitation of unpatched vulnerabilities in public-facing applications
@@ -54,17 +57,24 @@ Additionally, affiliates and developers associated with LockBit have faced legal
 ---
 ### Known Affiliations
 - **Ransomware Affiliates:** 
-  - LockBit operates under a RaaS model, recruiting affiliates to conduct attacks using LockBit ransomware tools and infrastructure
-- **Initial Access Brokers:** [If they buy/sell access]
-- **Other Threat Actors:** [Any collaboration or alliances]
+  - They operates under a RaaS model, recruiting affiliates to conduct attacks using LockBit ransomware tools and infrastructure
+- **Initial Access Brokers:** 
+  - In LockBit’s RaaS model, the primary operating group recruits Initial Access Brokers (IAB) through advertisements on the dark web to obtain stolen credentials for Remote Desktop Protocol (RDP) or Virtual Private Network (VPN) access
+- **Other Threat Actors:** 
+  - Previously cooperated with Maze
 
 ---
 ### Indicators of Compromise (IoCs)
-- **File Hashes:** [Provide known malicious file hashes]
-- **Domains/URLs:** [List associated domains or URLs]
-- **IP Addresses:** [Known IPs used in campaigns]
-
-
+- **File Hashes:** 
+  - LockBit 2.0 sample: e8c398d32d4f045e4f3cb5b8ac9a03d7
+  - LockBit 3.0 sample: 9a5e531af67e8bcf4ec8d2a55a349c77
+- **Process Names:**
+  - lockbit.exe
+  - locker.exe
+- **Reliable list:**
+  - https://documents.trendmicro.com/images/TEx/articles/LockBit_IOCs_Update_2023.04.18NCkxjHb.txt
+  - https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit
+  
 ---
 ### References
 - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
