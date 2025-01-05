@@ -29,7 +29,7 @@ Law enforcement agencies, including the U.S. Department of State, have intensifi
 - **Campaign 3:** Attack on Fidelity National Financial
   - **Date:** 2023
   - **Target(s):** Fidelity National Financial
-  - **Impact:** [Operational disruptions; ransom demanded
+  - **Impact:** Operational disruptions; ransom demanded
 
 - **Campaign 4:** Attack on Change Healthcare
   - **Date:** 2024
