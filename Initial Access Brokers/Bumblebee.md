@@ -22,11 +22,14 @@ Bumblebee is a sophisticated malware loader first identified in March 2022, prim
 
 ---
 - **Impact:**
-  - **Targeted Sectors:** [Industries, regions]
+  - **Targeted Sectors:** Wide-ranging, targeting various sectors including: Financial institutions & Corporate networks.
   - **Key Campaigns:**
-    - **[Campaign 1 Name]:**
-      - **Target:** [E.g., Healthcare systems in North America]
-      - **Outcome:** [E.g., Deployment of ransomware]
+    - **[DocuSign Campaign (2022)]:**
+      - **Target:** Multiple organizations worldwide
+      - **Outcome:** Deployment of Bumblebee loader, potential for follow-on attacks
+    - **[Fake Software Installer Campaign (2024)):]:**
+      - **Target:** Remote workers, general users
+      - **Outcome:** Infection via fake installers for ChatGPT, Zoom, Cisco, and Citrix softwa
 
 ---
 - **IoCs:**
@@ -41,8 +44,14 @@ Bumblebee is a sophisticated malware loader first identified in March 2022, prim
   - **Defensive Recommendations:** [E.g., Monitor for specific tools like Cobalt Strike]
   - **Detection Tips:** [Network traffic anomalies, IoCs, etc.]
   - **Workarounds:** [E.g., Disable unused remote access protocol
-  -
+  
 ---
 ### References
-- [Link 1 to research or analysis]
-- [Link 2 to news articles]
+- https://www.avertium.com/resources/threat-reports/everything-you-need-to-know-about-bumblebee-malware
+- https://darktrace.com/blog/from-bumblebee-to-cobalt-strike-steps-of-a-bumblebee-intrusion
+- https://www.packetlabs.net/posts/bumblebee-malware/
+- https://therecord.media/bumblebee-malware-uses-fake-chatgpt-zoom-installers
+- https://malpedia.caad.fkie.fraunhofer.de/details/win.bumblebee
+- https://any.run/malware-trends/bumblebee/
+- https://intel471.com/blog/bumblebee-loader-resurfaces-in-new-campaign
+  
