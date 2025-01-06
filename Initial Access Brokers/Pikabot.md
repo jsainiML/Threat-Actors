@@ -1,4 +1,4 @@
-## Initial Access Broker: Pikabot
+## Initial Access Broker: Pikabot ⚡️
 Pikabot is a modular backdoor trojan that emerged in early 2023, designed to provide attackers with persistent access to compromised systems. It comprises a loader and a core component, enabling the execution of arbitrary commands and the injection of additional payloads from its command-and-control (C2) server. Pikabot employs sophisticated anti-analysis and evasion techniques, making it a formidable threat in the cybersecurity landscape.
 
 ---
