@@ -27,7 +27,7 @@ Bumblebee is a sophisticated malware loader first identified in March 2022, prim
     - **[DocuSign Campaign (2022)]:**
       - **Target:** Multiple organizations worldwide
       - **Outcome:** Deployment of Bumblebee loader, potential for follow-on attacks
-    - **[Fake Software Installer Campaign (2024)):]:**
+    - **[Fake Software Installer Campaign (2024)]:**
       - **Target:** Remote workers, general users
       - **Outcome:** Infection via fake installers for ChatGPT, Zoom, Cisco, and Citrix softwa
 
