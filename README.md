@@ -89,7 +89,6 @@ Efforts to disrupt ransomware and initial access broker networks.
 | **Operation Duck Hunt**   | Disrupted Qakbot operations.                                             |
 | **Operation Endgame**     | Targeted initial access brokers like SmokeLoader, Pikabot, Bumblebee, and IcedID. |
 
----
 
 
 <footer>
