@@ -15,8 +15,8 @@ Bumblebee is a sophisticated malware loader first identified in March 2022, prim
     - Spear-phishing campaigns delivering ISO files containing malicious payloads.
     - Malvertising, fake software installers
   - **Delivery Mechanism:**
-  - ISO files with embedded DLLs acting as custom loaders. 
-  - Malicious Word documents with macros executing PowerShell scripts
+    - ISO files with embedded DLLs acting as custom loaders. 
+    - Malicious Word documents with macros executing PowerShell scripts
   - **Payloads:**
     - Cobalt Strike, Meterpreter, Silver, ransomware, shellcode, arbitrary DLLs and executables
 
