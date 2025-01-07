@@ -2,7 +2,7 @@
 
 # Threat Intel
 
-Creating this repository as lookup guide for detection engineers, where you will find list adversarial TTPs & signature patterns. 
+Creating this repository as lookup guide for SOC analysts & detection engineers, where you will find list adversarial TTPs & behaviour patterns. 
 
 </header>
 
