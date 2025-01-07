@@ -63,7 +63,7 @@ IcedID, also known as BokBot, is a banking trojan first identified in 2017. Over
     - Monitor for suspicious PowerShell activity
     - Look for unusual network connections, especially on port 49157
     - Watch for man-in-the-browser attacks and web injections
-  - **Workarounds:** [E.g., Disable unused remote access protocol
+  - **Workarounds:** 
     - Implement multi-factor authentication
     - Use application whitelisting
     - Regularly patch and update Microsoft Exchange servers
