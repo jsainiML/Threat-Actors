@@ -6,7 +6,7 @@ Akira is a ransomware group that emerged in March 2023, operating as a RaaS plat
 ### Overview
 - **Aliases:** None known.
 - **Type:** Ransomware-as-a-Service
-- **First Identified:** March 2023.
+- **First Identified:** March 2023. 
 - **Region of Operation:** Global.
 - **Primary Targets:** Diverse range of industries, including healthcare, manufacturing, and government.
 - **Motivation:** Financial gain through extortion
