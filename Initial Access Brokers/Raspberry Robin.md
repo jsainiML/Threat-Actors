@@ -37,10 +37,18 @@ Raspberry Robin is a sophisticated worm primarily propagated through infected ex
   - **Known Tools:**
     - Windows Management Instrumentation (WMI), msiexec.exe
     - Utilizes compromised QNAP NAS devices for hosting malicious payloads
-  - **Malicious Domains:** [List domains]
-  - **IPs:** [List IPs]
-  - **Hashes:** [List malware hashes]
-  - **more comprehensive feeds:** [Link to more comprehensive feeds]
+  - **Malicious Domains:** 
+  - **IPs:**
+    - 47.24.139[.]111
+    - 45.138.74[.]191
+    - 65.108.218[.]24
+  - **Hashes:**
+    - ebe231c90fad02590fc56d5840acc63b90312b0e2fee7da3c7606027ed92600e
+    - 7b666b978dbbe7c032cef19a90993e8e4922b743ee839632bfa6d99314ea6c53
+    - c94006bb878ec9c58bed7a882b340024ba61e997fa7e4c720f3a3e28cca0ab75
+  - **more comprehensive feeds:**
+    - https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2024-11-14-IOCs-for-Raspberry-Robin-activity.txt
+    - https://github.com/sophoslabs/IoCs/blob/master/Worm-Raspberry-Robin.csv
 
 ---
 - **Mitigation:**
@@ -57,6 +65,7 @@ Raspberry Robin is a sophisticated worm primarily propagated through infected ex
 ---
 ### References
 - https://darktrace.com/blog/the-early-bird-catches-the-worm-darktraces-hunt-for-raspberry-robin
-https://blog.checkpoint.com/security/raspberry-robin-evolving-cyber-threat-with-advanced-exploits-and-stealth-tactics/
-https://www.tanium.com/blog/raspberry-robin-usb-malware-cyber-threat-intelligence-roundup/
-https://www.trendmicro.com/en_ca/research/22/l/raspberry-robin-malware-targets-telecom-governments.html
+- https://blog.checkpoint.com/security/raspberry-robin-evolving-cyber-threat-with-advanced-exploits-and-stealth-tactics/
+- https://www.tanium.com/blog/raspberry-robin-usb-malware-cyber-threat-intelligence-roundup/
+- https://www.trendmicro.com/en_ca/research/22/l/raspberry-robin-malware-targets-telecom-governments.html
+- https://www.esentire.com/blog/esentire-threat-intelligence-malware-analysis-raspberry-robin
