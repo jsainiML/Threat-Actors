@@ -32,6 +32,7 @@ These are groups primarily focused on using ransomware for extortion purposes.
 | **Stop (a.k.a. DJVU)**    | Ransomware gang using SmokeLoader.                                       |
 | **Hive**                  | Rebranded as Hunters International after infrastructure shutdown.        |
 | **Hunters International** | Successor to Hive ransomware group.                                      |
+| **RansomHub**             | Ransomware-as-a-service (RaaS) network where BlackCat affiliates migrated. |
 
 ---
 
@@ -47,7 +48,7 @@ These are groups or entities that specialize in providing access or tools for ra
 | **IcedID**                | Banking trojan turned initial access broker.                             |
 | **Latrodectus**           | New malware loader created by IcedID developers.                         |
 | **Raspberry Robin**       | Used SmokeLoader for ransomware deployment.                              |
-| **RansomHub**             | Ransomware-as-a-service (RaaS) network where BlackCat affiliates migrated. |
+
 
 ---
 
