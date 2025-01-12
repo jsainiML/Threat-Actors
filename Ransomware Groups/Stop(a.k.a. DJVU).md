@@ -1,5 +1,5 @@
 ## Threat Actor: STOP 🛑
-The STOP (Djvu) ransomware group is a cybercriminal organization known for deploying ransomware that encrypts victims' files and demands payment for decryption. Active since at least 2018, this group has targeted individuals and organizations worldwide, causing significant disruptions and financial losses.
+The STOP (Djvu) ransomware group is a cybercriminal organization known for deploying ransomware that encrypts victims' files and demands payment for decryption. Active since at least 2018, this group has targeted individuals and organizations worldwide.
 
 ---
 ### Overview
