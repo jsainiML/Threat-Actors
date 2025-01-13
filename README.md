@@ -31,7 +31,6 @@ These are groups primarily focused on using ransomware for extortion purposes.
 | **Lorenz**                | Involved in leaking stolen data, including from pharmaceutical distributors. |
 | **Stop (a.k.a. DJVU)**    | Ransomware gang using SmokeLoader.                                       |
 | **Hive**                  | Rebranded as Hunters International after infrastructure shutdown.        |
-| **Hunters International** | Successor to Hive ransomware group.                                      |
 | **RansomHub**             | Ransomware-as-a-service (RaaS) network where BlackCat affiliates migrated. |
 
 ---
